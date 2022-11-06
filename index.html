@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--不要缩放-->
+    <title>我的纯静态网站</title><!--网页标题名称-->
+</head>
+<body>
+    <!-- 展示型标签 -->
+    <!-- src可以写相对路径和网页路径 -->
+    <div>来吧</div><!--会填满一整行（宽度），除非限制-->
+    <span>好吧</span><!--只占文字大小-->
+    
+     <!-- 交互型标签 -->
+    <button>第一次按钮</button><!-- 也是行类标签 -->
+    <input /><!-- 行类 -->
+    <input type="file">
+    <div>
+    <textarea>填一下</textarea><!-- 都是行类 -->
+</div>
+    <div>
+    <select>
+        <option value="student">管理员</option>
+        <option value="teacher">学生</option>
+        <option value="admin">老师</option>
+    </select>    
+    </div> 
+    <input type="password" />
+    <div>
+        <!-- radio标签组的形成，需要所有的radio类型的input name值相同 -->
+        <input type="radio" id="boy" name="sex" value="boy" />
+        <label for="boy">男</label>
+        <input type="radio" id="girl" name="sex" value="girl" />
+        <label for="girl">女</label>
+      </div>
+      <div>
+        <input type="checkbox" id="boy" name="vehicle1" />
+        <label for="boy">男</label>
+        <input type="checkbox" id="girl" name="vehicle1" />
+        <label for="girl">女</label>
+      </div>
+    <!-- src当中可以写相对路径或者觉得的网络路径-->
+<img src=C:\Users\YUFUN\Desktop\phpnkyIDS.jpg />
+    <video loop autoplay src=""></video>
+    <video
+    loop
+    autoplay
+    src="https://activity.hdslb.com/blackboard/activity68698/public/static/2xv.mp4"
+  ></video>
+</body>
+</html>
